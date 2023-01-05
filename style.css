@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Merriweather:wght@300&family=Roboto:wght@100&family=Sacramento&display=swap");
+
+.heading hr {
+  width: 100px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading h1 {
+  font-family: "Mulish";
+  animation: color-change 1s infinite;
+}
+
+nav {
+  border-bottom: 4px solid orangered;
+}
+.navbar-brand {
+  font-family: "La Belle Aurore", cursive;
+}
+.nav-item i {
+  padding-right: 10px;
+  color: gray;
+  margin-top: 0px;
+}
+.nav-item:hover {
+  background-color: orangered;
+}
+.nav-item a {
+  color: #fff !important;
+  font-family: "Mulish";
+}
+.btn-outline-warning {
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+.btn-outline-warning:hover {
+  background-color: orangered !important;
+  outline: orangered !important;
+}
+.bg-dark {
+  background-color: #212529 !important;
+  padding: 0px;
+}
+.nav-link {
+  padding: 15px !important;
+}
+.heading h1 {
+  padding: 0px 30px;
+  font-family: "Mulish";
+}
+/* slider styling */
+.borderrr {
+  border-bottom: 5px solid orangered;
+}
+.borderr {
+  border-bottom: 5px solid orangered;
+  padding: 40px 0px;
+}
+.service_1 {
+  text-align: center;
+  font-family: "Mulish";
+}
+.service_1 i {
+  color: orangered;
+  font-size: 40px;
+  border-radius: 50px;
+  /* background-color: black; */
+  padding: 10px 10px;
+}
+.key_feature ul {
+  list-style: none;
+  font-family: "Mulish";
+}
+.key_feature ul li::before {
+  font-family: "Mulish";
+  content: "\2713";
+  font-weight: bold;
+  color: orangered;
+  width: 1rem;
+  margin-right: 1rem;
+}
+.images_web {
+  margin-bottom: 30px;
+}
+
+.card {
+  box-shadow: 3px 3px 2px rgba(4, 4, 4, 0.411);
+  transition: margin-top 0.4s;
+}
+.card:hover {
+  margin-top: 10px;
+}
+.fa {
+  color: gold;
+  margin-top: 10px;
+}
+.carousel-item {
+  height: 400px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-inner img {
+  object-fit: cover;
+  height: 80x`vh;
+}
+.loginform input {
+}
+.fa-search {
+  color: white;
+}
+
+.footer_one span {
+  color: orangered;
+}
+.footer_two span {
+  color: orangered;
+}
+.footer_two i {
+  padding-right: 10px;
+}
+.footer_three i {
+  padding-right: 10px;
+  font-size: 20px;
+}
+.footer {
+  background-color: rgb(43, 42, 42);
+  padding: 50px 0px;
+  color: gray;
+  font-family: "Mulish";
+}
+.sample a {
+  padding: 0px 20px;
+  text-decoration: none;
+  color: gray;
+  border-right: 2px solid gray;
+}
+.copyr a {
+  text-decoration: none;
+  color: gray;
+}
+.last_section {
+}
+form {
+  padding: 20px;
+}
+hvr-bounce-to-bottom {
+  background-color: orangered;
+}
